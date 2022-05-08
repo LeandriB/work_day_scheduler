@@ -30,6 +30,15 @@ $(document).ready(function() {
 
 });
 
+// Clear localStorage on button click
+var clearSchedule = function(){
+    $("#clearSchedule").on("click", function(){
+        // reloads page when local storage is cleared
+        location.reload();
+        localStorage.clear();
+    })
+};
+
 // Declared function when hour changes
 var hourChange = function() {
     // Pulls hour data from dayjs
@@ -50,8 +59,9 @@ var hourChange = function() {
     })
 }
 
-// Call hourChange function
+// Call functions
 hourChange();
+clearSchedule();
 
 
 
