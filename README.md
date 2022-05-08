@@ -33,10 +33,10 @@ View a [live preview](https://leandrib.github.io/work_day_scheduler/) of my proj
 
 ## Screenshot
 
-![Portfolio](assets/images/preview1.png)
+![Portfolio](assets/images/preview1.mov)
 
 ## Attributions
 
 * [How to only start executing JS code when DOM is ready](https://learn.jquery.com/using-jquery-core/document-ready/)
-* API from [moment.js](https://momentjs.com/?utm_source=cdnjs&utm_medium=cdnjs_link&utm_campaign=cdnjs_library)
+* API from [dayjs](https://day.js.org/docs/en/installation/browser)
 * [Starter code](https://github.com/coding-boot-camp/super-disco)
