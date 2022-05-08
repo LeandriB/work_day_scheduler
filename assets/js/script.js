@@ -30,7 +30,28 @@ $(document).ready(function() {
 
 });
 
+// Declared function when hour changes
+var hourChange = function() {
+    // Pulls hour data from dayjs
+    var currentTime = today.hour();
+    // each item in time-container will have styling applied based on time that has passed within currentDay
+    $(".time-container").each(function(){
+        var time = parseInt($(this).attr("id"));
+        if (time < currentTime) {
+            $(this).addClass("past");
+        } else if (time === currentTime) {
+            $(this).addClass("present");
+            $(this).removeClass("past");
+        } else {
+            $(this).addClass("future");
+            $(this).removeClass("present");
+            $(this).removeClass("past");
+        }
+    })
+}
 
+// Call hourChange function
+hourChange();
 
 
 
