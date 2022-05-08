@@ -33,7 +33,7 @@ View a [live preview](https://leandrib.github.io/work_day_scheduler/) of my proj
 
 ## Screenshot
 
-![Portfolio](./assets/images/preview1.mov)
+![Portfolio](./assets/images/preview1.png)
 
 ## Attributions
 
