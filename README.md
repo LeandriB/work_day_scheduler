@@ -37,6 +37,10 @@ View a [live preview](https://leandrib.github.io/work_day_scheduler/) of my proj
 
 ## Attributions
 
-* [How to only start executing JS code when DOM is ready](https://learn.jquery.com/using-jquery-core/document-ready/)
+* How to only start executing JS code when DOM is [ready](https://learn.jquery.com/using-jquery-core/document-ready/)
 * API from [dayjs](https://day.js.org/docs/en/installation/browser)
+* How to use [localStorage](https://www.w3schools.com/jsref/met_storage_setitem.asp)
+* How to [reload](https://stackoverflow.com/questions/5404839/how-can-i-refresh-a-page-with-jquery) page when localStorage is cleared
+* How to traverse [siblings](https://www.w3schools.com/jquery/traversing_siblings.asp) in jQuery
+* UI built with [bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 * [Starter code](https://github.com/coding-boot-camp/super-disco)
